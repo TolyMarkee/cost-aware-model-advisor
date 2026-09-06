@@ -125,19 +125,19 @@ Skill 默认应给出三类信息：推荐配置、主要依据与不确定性�
 2. 将本目录中的 `README.md`、`VERSION`、`CHECKSUMS.sha256` 和内层 `project-model-advisor/` 一并提交。
 3. 建议使用标签 `v0.3.0-trial`，并在 Release 中附上纯 Skill ZIP。
 4. 发布说明中保留“personal trial / 未完成跨模型成本校准”的状态。
-5. 公开发布前选择许可证。未添加许可证时，GitHub 展示源码不等于授权他人复制、修改或再发布。
+5. 当前仓库已添加 MIT License；它允许复用、修改和再发布，但要求保留许可证与版权声明。
 
 官方 OpenAI Skills API 也支持使用[目录文件或单个 ZIP 创建 Skill](https://developers.openai.com/api/reference/python/resources/skills/methods/create)，并支持[创建不可变版本](https://developers.openai.com/api/reference/cli/resources/skills/subresources/versions/methods/create)；这是 API 托管路径，与把文件夹安装到个人 Codex 的本地路径不同。不要在仓库或命令示例中提交 API Key。
 
 ## 许可证
 
-本包暂未附带许可证。公开给别人复用前，请由版权所有者选择许可证：
+本仓库已添加标准 MIT License。它允许复用、修改、再发布和商用，但要求保留版权与许可声明：
 
 - MIT：条款简短，允许修改、再发布和商用，要求保留版权与许可声明；
 - Apache-2.0：同样宽松，并包含更明确的专利授权条款；
 - 不添加许可证：默认保留全部权利，别人通常只能查看，不能获得通用复用授权。
 
-许可证是法律选择，不应由打包工具代替作者决定。
+完整许可证文本见仓库根目录的 `LICENSE` 文件。许可证是法律选择，不应由打包工具代替作者决定。
 
 ---
 
@@ -213,5 +213,5 @@ The evaluation inputs and rubric are separated under `project-model-advisor/refe
 
 ### Publishing and license
 
-Before publishing, choose a license. No license is included in this release. MIT is a simple option for broad reuse; Apache-2.0 is another permissive option with explicit patent terms. Without a license, public visibility does not grant general permission to copy, modify or redistribute.
+This repository includes the standard MIT License. It permits reuse, modification, redistribution and commercial use, provided that the copyright and license notice are retained. See the root `LICENSE` file.
 
