@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Model Advisor"
+  short_description: "Recommend a model and reasoning level for each project task"
+  default_prompt: "Use $project-model-advisor to recommend a suitable low-overhead configuration or reuse the previous recommendation; add a context card only when needed."
+
